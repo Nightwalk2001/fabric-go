@@ -26,7 +26,7 @@ var birthday = func() []D {
 	}
 	boundaries := make([]string, 0)
 
-	for i := 200; i >= 0; i-- {
+	for i := 210; i >= 0; i = i - 7 {
 		boundaries = append(boundaries, Past(now, i))
 	}
 
